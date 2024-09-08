@@ -14,6 +14,7 @@ body {
 }
 
 #main {
+    max-width: 500px;
   border-radius: 8px;
   background-color: aqua;
   text-align: center;
@@ -28,7 +29,7 @@ button {
 }
 input {
     font-size: 1.2rem;
-  max-width: 200px;
+  min-width: 200px;
   border-radius: 7px;
   padding: 0 10px;
 }
