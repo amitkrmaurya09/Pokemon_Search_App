@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body><div id="search-app">
+
+    <h1>Pokémon Search App</h1>
+</div>
+    <div id="main">
+        <section>
+    <h3>Search for Pokémon Name or ID:</h3>
+    <div id="search-section">
+        <input type="text" id="search-input" placeholder="id ex.. 1,2,25,300..." required/>
+        <button id="search-button">Search</button>
+    </div>
+</section>
+<section class="name-id">
+<h2 id="pokemon-name">name</h2>
+    <h2 id="pokemon-id">#id</h2>
+</section>
+<section class="description">
+    <p id="weight">Weight: </p>
+    <p id="height">Height: </p>
+</section>
+<section id="image">
+    <img id="sprite"  width="200" height="200" />
+</section>
+<section id="types">
+
+</section>
+<div class="grid-container">
+    <div class="extend"><strong>BASE</strong></div> 
+    <div class="text"><strong>STATS</strong></div>
+    <div class="extend">HP:</div> 
+    <div id="hp" class="text">N/A</div>
+ 
+  
+  <!-- Attack -->
+
+    <div class="extend">Attack:</div> 
+    <div id="attack" class="text">N/A</div>
+
+  
+  <!-- Defense -->
+
+    <div class="extend">Defense:</div> 
+    <div id="defense" class="text">N/A</div>
+
+  
+
+    <div class="extend">Special Attack:</div> 
+    <div id="special-attack" class="text">N/A</div>
+
+  
+
+    <div class="extend">Special Defense:</div> 
+    <div id="special-defense" class="text">N/A</div>
+
+    <div class="extend">Speed:</div> 
+    <div id="speed" class="text">N/A</div>
+
+  </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
